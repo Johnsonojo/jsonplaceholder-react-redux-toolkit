@@ -1,0 +1,196 @@
+{
+  "websites": [
+    {
+      "id": 1,
+      "siteName": "google",
+      "siteUrl": "google.com",
+      "siteImage": "google.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 2,
+      "siteName": "yahoo",
+      "siteUrl": "yahoo.come",
+      "siteImage": "yahoo.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 3,
+      "siteName": "goal",
+      "siteUrl": "goal.com",
+      "siteImage": "goal.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 4,
+      "siteName": "facebook",
+      "siteUrl": "facebook.com",
+      "siteImage": "facebook.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 5,
+      "siteName": "instagram",
+      "siteUrl": "instagram.com",
+      "siteImage": "instagram.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 6,
+      "siteName": "twitter",
+      "siteUrl": "twitter.com",
+      "siteImage": "twitter.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 7,
+      "siteName": "youtube",
+      "siteUrl": "youtube.com",
+      "siteImage": "youtube.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 8,
+      "siteName": "github",
+      "siteUrl": "github.com",
+      "siteImage": "github.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "id": 9,
+      "siteName": "bitbucket",
+      "siteUrl": "bitbucket.com",
+      "siteImage": "bitbucket.com",
+      "category": "tag",
+      "tags": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    {
+      "siteName": "games",
+      "siteUrl": "games.com",
+      "siteImage": "games.com",
+      "Category": "game",
+      "tags": "game",
+      "id": 10
+    },
+    {
+      "siteName": "money",
+      "siteUrl": "money.com",
+      "siteImage": "money.com",
+      "category": "finance",
+      "id": 11
+    },
+    {
+      "siteName": "finance",
+      "siteUrl": "finance.com",
+      "siteImage": "finance.com",
+      "category": "money",
+      "id": 12
+    },
+    {
+      "siteName": "Adesewa",
+      "siteUrl": "adesewa.com",
+      "siteImage": "adesewa.com",
+      "category": "babe",
+      "tags": "babe, honey, wife",
+      "id": 13
+    },
+    {
+      "siteName": "johnson",
+      "siteUrl": "johnson.com",
+      "siteImage": "hohnson.com",
+      "category": "personal",
+      "id": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "some comment"
+    },
+    {
+      "id": 2,
+      "name": "some comment"
+    },
+    {
+      "id": 3,
+      "name": "some comment"
+    },
+    {
+      "id": 4,
+      "name": "some comment"
+    },
+    {
+      "id": 5,
+      "name": "some comment"
+    },
+    {
+      "id": 6,
+      "name": "some comment"
+    },
+    {
+      "id": 7,
+      "name": "some comment"
+    },
+    {
+      "id": 8,
+      "name": "some comment"
+    }
+  ],
+  "tags": {
+    "id": 1,
+    "name": "typicode"
+  }
+}
