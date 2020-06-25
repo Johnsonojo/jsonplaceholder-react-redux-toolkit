@@ -1,5 +1,6 @@
 export const POST_WEBSITE = "POST_WEBSITE";
-export const GET_WEBSITE = "GET_WEBSITE";
+export const GET_ONE_WEBSITE = "GET_ONE_WEBSITE";
+export const GET_WEBSITES = "GET_WEBSITES";
 export const DELETE_WEBSITE = "DELETE_WEBSITE";
 export const UPDATE_WEBSITE = "UPDATE_WEBSITE";
 export const GET_CATEGORY = "GET_CATEGORY";

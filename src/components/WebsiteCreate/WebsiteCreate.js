@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Container } from "react-bootstrap";
 import { connect } from "react-redux";
 import { addWebsite } from "../../actions";
 import WebsiteForm from "../WebsiteForm/WebsiteForm";
@@ -10,10 +10,10 @@ class WebsiteCreate extends Component {
   };
   render() {
     return (
-      <div>
+      <Container>
         <h3>Add a Website</h3>
         <WebsiteForm onSubmit={this.onSubmit} />
-      </div>
+      </Container>
     );
   }
 }

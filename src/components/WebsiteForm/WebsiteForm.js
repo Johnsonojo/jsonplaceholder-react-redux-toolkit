@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Field, reduxForm, FieldArray } from "redux-form";
+import { Button, Container, Form } from "react-bootstrap";
+import { Field, reduxForm } from "redux-form";
 
 class WebsiteForm extends Component {
   renderError = ({ error, touched }) => {
@@ -22,15 +23,13 @@ class WebsiteForm extends Component {
     );
   };
 
-  //   renderTags = ({ fields, meta }) => {};
-
   onSubmit = (formValues) => {
     this.props.onSubmit(formValues);
   };
   render() {
     return (
-      <div>
-        <form onSubmit={this.props.handleSubmit(this.onSubmit)}>
+      <Container>
+        <Form onSubmit={this.props.handleSubmit(this.onSubmit)}>
           <Field
             name="siteName"
             component={this.renderInput}
@@ -51,15 +50,15 @@ class WebsiteForm extends Component {
             component={this.renderInput}
             label="Enter Category"
           />
-          <FieldArray
+          {/* <FieldArray
             name="tags"
             component={this.renderInput}
             label="Enter Tags"
-          />
+          /> */}
 
-          <button>Submit</button>
-        </form>
-      </div>
+          <Button>Submit</Button>
+        </Form>
+      </Container>
     );
   }
 }
@@ -78,9 +77,9 @@ const validate = (formValues) => {
   if (!formValues.category) {
     errors.category = "A category is required";
   }
-  if (!formValues.tags) {
-    errors.tags = "Tags are required";
-  }
+  // if (!formValues.tags) {
+  //   errors.tags = "Tags are required";
+  // }
 
   return errors;
 };
