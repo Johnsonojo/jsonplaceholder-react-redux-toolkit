@@ -1,9 +1,11 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import handleApiError from "../api/handleApiError";
 import usersAPI from "../api/usersAPI";
+import postsAPI from "../api/postsAPI";
 
 const Api = {
   getAllUsers: usersAPI.getUsers,
+  getAllPosts: postsAPI.getPosts,
 };
 
 const baseThunkMethod = (actionName) =>

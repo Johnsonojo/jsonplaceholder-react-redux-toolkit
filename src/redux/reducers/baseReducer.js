@@ -4,32 +4,6 @@ const LOADING = {
   PENDING: "pending",
 };
 
-// export const pending = () => (state, action) => {
-//   if (state.loading === LOADING.IDLE) {
-//     state.loading = LOADING.PENDING;
-//   }
-// };
-
-// export const fulfilled = () => (state, action) => {
-//   if (state.loading === LOADING.PENDING) {
-//     state.loading = LOADING.IDLE;
-//     state.error = null;
-//     state.allUsers = action.payload;
-//   }
-// };
-
-// export const rejected = () => (state, action) => {
-//   if (state.loading === LOADING.PENDING) {
-//     state.loading = LOADING.IDLE;
-//     state.allUsers = null;
-//     if (action.payload) {
-//       state.error = action.payload;
-//     } else {
-//       state.error = action.error;
-//     }
-//   }
-// };
-
 export const pending = (type) => (state, action) => {
   state.loading = type || LOADING.PENDING;
 };

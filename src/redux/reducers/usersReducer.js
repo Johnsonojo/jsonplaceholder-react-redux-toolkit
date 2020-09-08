@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import faker from "faker";
 import { pending, rejected } from "./baseReducer";
 import baseThunkMethod from "./baseThunkMethod";
 
@@ -19,6 +20,10 @@ export const userSlice = createSlice({
       if (state.loading === "pending") {
         state.loading = "idle";
         state.error = null;
+        action.payload.data.forEach((element) => {
+          element.pics = faker.internet.avatar();
+        });
+
         state.allUsers = [...state.allUsers, ...action.payload.data];
       }
       !state.loaded.includes("allUsers") && state.loaded.push("allUsers");
