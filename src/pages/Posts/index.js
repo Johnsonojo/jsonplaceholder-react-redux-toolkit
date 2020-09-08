@@ -53,8 +53,8 @@ const Posts = () => {
         ))}
       </UserContentWrapper>
       <Pagination
-        postsPerPage={postsPerPage}
-        totalPosts={posts.length}
+        itemsPerPage={postsPerPage}
+        totalItems={posts.length}
         paginate={paginate}
       />
     </div>

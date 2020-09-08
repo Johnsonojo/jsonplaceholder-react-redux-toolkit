@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Counter from "./pages/Counter";
 import Posts from "./pages/Posts";
 import Users from "./pages/Users";
+import Photos from "./pages/Photos";
 
 const App = () => {
   return (
@@ -18,6 +19,10 @@ const App = () => {
 
           <Route exact path="/posts">
             <Posts />
+          </Route>
+
+          <Route exact path="/photos">
+            <Photos />
           </Route>
 
           <Route exact path="/counter">
